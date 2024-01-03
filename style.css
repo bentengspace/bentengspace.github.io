@@ -1,0 +1,99 @@
+body {
+    font-family: 'Mulish', Verdana, 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #121212;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+.full-flex-container {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    max-width: 60rem;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+.flex-container.space-between {
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 1rem;
+}
+
+span.turquoise {
+    color: #1EA59A;
+}
+
+header {
+    height: 3.5rem;
+    background-color: #fff;
+    line-height: 3rem.5;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.05);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header .header-logo {
+    max-height: 2.5rem;
+}
+header .header-logo img {
+    max-height: 2.5rem;
+    height: 100%;
+}
+
+
+main {
+    /* max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem; */
+}
+.banner {
+    padding: 1rem;
+    height: 480px;
+    /* center logo vertically in it */
+    display: flex;
+}
+.banner .banner-text {
+    margin: auto;    
+}
+.banner .banner-text h1 {
+    font-size: 3.5rem;
+    margin: 0 0 1rem;
+}
+.banner .banner-text p {
+    font-size: 1.375rem;
+    margin: 0 0 1rem;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+}
+.call-to-action p {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+.cta-content {
+    padding: 3rem 0;
+}
+
+.card {
+    max-width: 20rem;
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000028;
+    border-radius: 1rem;
+}
