@@ -61,5 +61,21 @@ span.turquoise {
     color: #1EA59A;
 }
 
+span.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+hr.divider {
+    border: 0;
+    border-top: 2px solid #1EA59A;
+    display: block;
+    max-width: 40vw;
+    margin: 1rem auto;
+}
+
 /* main {
 } */
