@@ -1,0 +1,93 @@
+.banner {
+    padding: 6rem 0 4rem;
+    /* center logo vertically in it */
+    display: flex;
+}
+.banner .banner-text {
+    margin: auto;    
+}
+.banner .banner-text h1 {
+    font-size: 3.5rem;
+    margin: 0 0 1rem;
+}
+.banner .banner-text p {
+    font-size: 1.375rem;
+    margin: 0 0 1rem;
+}
+
+.call-to-action h2 {
+    font-size: 2rem;
+}
+.call-to-action p {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+}
+.cta-content {
+    padding: 3rem 0;
+}
+.call-to-action ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.call-to-action li {
+    margin-bottom: 1.5rem;
+}
+.call-to-action ul li .material-symbols-outlined {
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    background-color: floralwhite;
+    color: #1EA59A;
+}
+.call-to-action h4 {
+    margin: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+.cta-button {
+    background-color: #1EA59A;
+    color: #fff;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    display: inline-block;
+    padding: 0 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+.cta-button:hover, .cta-button:focus {
+    background-color: #3EC5BA;
+}
+
+.card {
+    max-width: 15rem;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #B4D3D1;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 60rem) {
+    .card {
+        margin: 0 auto;
+    }
+}
+.card .card-image {
+    height: 20rem;
+    line-height: 10rem;
+    overflow: hidden;
+}
+.card .card-image img {
+    min-width: 100%;
+}
+.card .card-content {
+    padding: 1rem;
+}
